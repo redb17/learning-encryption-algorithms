@@ -1,0 +1,23 @@
+body {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #404040;
+    color: whitesmoke;
+}
+
+.navbar a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #126ffe;
+}
+
+.info {
+    background-color: #606060;
+}
+
+.textBox {
+    height: 60vh;
+}
