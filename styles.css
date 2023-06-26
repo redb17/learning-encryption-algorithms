@@ -4,13 +4,21 @@ body {
     color: whitesmoke;
 }
 
-.navbar a {
-    color: whitesmoke;
-    text-decoration: none;
+.keyword {
+    color: #126ffe;
+    font-style: italic;
+}
+
+.navbar span {
     font-weight: bold;
 }
 
-.navbar a:hover {
+.active {
+    color: #126ffe !important;
+}
+
+.navbar span:hover {
+    cursor: pointer;
     color: #126ffe;
 }
 
@@ -18,6 +26,10 @@ body {
     background-color: #606060;
 }
 
-.textBox {
-    height: 60vh;
+/* .textBox {
+    height: 50vh;
+} */
+
+li {
+    margin-top: 4px;
 }
