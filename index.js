@@ -15,6 +15,10 @@ var state = {
     "DiffieHellman": {
         "total_page": 2,
         "active_page": 1
+    },
+    "RSA": {
+        "total_page": 3,
+        "active_page": 1
     }
 };
 

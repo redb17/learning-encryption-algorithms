@@ -4,31 +4,24 @@ body {
     color: whitesmoke;
 }
 
-.keyword {
-    color: #126ffe;
-    font-style: italic;
-}
-
 .navbar span {
     font-weight: bold;
 }
 
-.active {
-    color: #126ffe !important;
+.active, .keyword, .navbar span:hover {
+    color: #efc91d !important;
 }
 
 .navbar span:hover {
     cursor: pointer;
-    color: #126ffe;
 }
 
+.pagination {
+    --bs-pagination-focus-box-shadow: none;
+}
 .info {
     background-color: #606060;
 }
-
-/* .textBox {
-    height: 50vh;
-} */
 
 li {
     margin-top: 4px;
