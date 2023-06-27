@@ -1,6 +1,40 @@
 <html>
   <head> </head>
   <body>
-    <p>Diffie2</p>
+    <p>The Pros of Diffie Hellman:</p>
+    <ol>
+      <li>
+        <span class="keyword">Secret key</span> is established without any prior
+        physical meeting.
+      </li>
+      <li>
+        It provides <span class="keyword">Forward Secrecy</span> if it is
+        decided to generate new <span class="keyword">key</span> for each
+        <span class="keyword">session</span>.
+      </li>
+    </ol>
+    <hr />
+    <p>The Cons of Diffie Hellman:</p>
+    <ol>
+      <li>
+        It does not provide the <span class="keyword">Authentication</span> of
+        the two parties. In our example of <span class="keyword">P1</span> and
+        <span class="keyword">P2</span>, an attacker
+        <span class="keyword">P3</span> on the network might act as
+        <span class="keyword">P2</span> for
+        <span class="keyword">actual P1</span> and
+        <span class="keyword">P1</span> for
+        <span class="keyword"> actual P2</span>.
+        <span class="keyword">P3</span> will establish a key
+        <span class="keyword">k13</span> for himself and
+        <span class="keyword">P1</span>; and a another key
+        <span class="keyword">k32</span> for himself and
+        <span class="keyword">P2</span>. Hence, all the
+        <span class="keyword">messages</span> can be read, changed and forwarded
+        to <span class="keyword">P1</span> and
+        <span class="keyword">P2</span> with
+        <span class="keyword">P3</span> sitting in between.
+      </li>
+    </ol>
   </body>
 </html>
